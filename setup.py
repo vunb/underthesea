@@ -12,7 +12,7 @@ with open('HISTORY.rst') as history_file:
 
 install_requires = [
     'Click>=6.0',
-    'python-crfsuite==0.9.1',
+    'python-crfsuite==0.9.2'
 ]
 
 tests_require = [
@@ -20,11 +20,12 @@ tests_require = [
 ]
 
 setup_requires = [
+
 ]
 
 setup(
     name='underthesea',
-    version='1.1.4',
+    version='1.1.5rc1',
     description="Vietnamese NLP Toolkit",
     long_description=readme + '\n\n' + history,
     author="Vu Anh",
